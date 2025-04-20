@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnmm17s5su14r"]
+
+[ext_resource type="Texture2D" uid="uid://d26uw8ycue05f" path="res://Tilemaps/sprites/InteriorTilesLITE.png" id="1_7ii30"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ardoa"]
+size = Vector2(32, 14)
+
+[node name="Table" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 4)
+scale = Vector2(1.25, 1.125)
+texture = ExtResource("1_7ii30")
+region_enabled = true
+region_rect = Rect2(480, 96, 32, 64)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 16
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(8, -1)
+shape = SubResource("RectangleShape2D_ardoa")
