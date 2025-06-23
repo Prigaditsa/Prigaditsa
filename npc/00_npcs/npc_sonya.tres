@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="NPCRESOURCE" load_steps=3 format=3 uid="uid://cdvrwo365nfxd"]
+
+[ext_resource type="Script" uid="uid://dvgs8j5y3uaek" path="res://npc/scripts/npc_resource.gd" id="1_bo3nf"]
+[ext_resource type="Texture2D" uid="uid://ol5qi1cdf26x" path="res://npc/sprite/Slime.png" id="2_bcgl1"]
+
+[resource]
+script = ExtResource("1_bo3nf")
+npc_name = " Соня"
+sprite = ExtResource("2_bcgl1")
+dialog_audio_pitch = ""
+metadata/_custom_type_script = "uid://dvgs8j5y3uaek"
