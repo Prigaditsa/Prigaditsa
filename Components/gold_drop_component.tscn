@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjj37qfdd5dig"]
+
+[ext_resource type="Script" uid="uid://bmgmfp7ww6mht" path="res://Components/gold_drop_component.gd" id="1_afiuh"]
+[ext_resource type="PackedScene" uid="uid://c7q1h6a8mbn84" path="res://Collectibles/gold.tscn" id="2_7nfls"]
+
+[node name="GoldDropComponent" type="Node"]
+script = ExtResource("1_afiuh")
+gold_scene = ExtResource("2_7nfls")
